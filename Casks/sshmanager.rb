@@ -2,35 +2,33 @@
 cask "sshmanager" do
   desc "Simple SSH manager CLI tool."
   homepage "https://github.com/emirhangumus/sshmanager"
-  version "2.0.2"
+  version "2.0.3"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "sshmanager"
-  bash_completion "completions/sshmanager.bash"
-  zsh_completion "completions/sshmanager.zsh"
 
   on_macos do
     on_intel do
-      url "https://github.com/emirhangumus/sshmanager/releases/download/v2.0.2/sshmanager_Darwin_x86_64.tar.gz"
-      sha256 "75713c55cd89cddb8ab70eb7da1b5928eb335cba1d35d1f9b5c4e1016a89f173"
+      url "https://github.com/emirhangumus/sshmanager/releases/download/v2.0.3/sshmanager_Darwin_x86_64.tar.gz"
+      sha256 "56dd46241773715c8bf10af3775517d0100f123bfe15a8e8d5a0f6fb687b3ab3"
     end
     on_arm do
-      url "https://github.com/emirhangumus/sshmanager/releases/download/v2.0.2/sshmanager_Darwin_arm64.tar.gz"
-      sha256 "b85c7499110201025d77c3ea517fd44ceccb0dd41b51a09bd6c34b35b5eef55a"
+      url "https://github.com/emirhangumus/sshmanager/releases/download/v2.0.3/sshmanager_Darwin_arm64.tar.gz"
+      sha256 "eb7a4bf5b63a9122619ada283dfbde83a870d180e5505a1d6db778266ac3a6af"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/emirhangumus/sshmanager/releases/download/v2.0.2/sshmanager_Linux_x86_64.tar.gz"
-      sha256 "129a7ebccfc995694c3b35c023f633b8d00768b83ae201a63cdb81edcd4d57fd"
+      url "https://github.com/emirhangumus/sshmanager/releases/download/v2.0.3/sshmanager_Linux_x86_64.tar.gz"
+      sha256 "3389f944f01cecd7237bf5a0c6bdfd8b9a95cb25422587640137b7cca1680b25"
     end
     on_arm do
-      url "https://github.com/emirhangumus/sshmanager/releases/download/v2.0.2/sshmanager_Linux_arm64.tar.gz"
-      sha256 "716cbd719008d7f2a2909dcb3f6c60f45a60aec910112e94202429f05dcb62b9"
+      url "https://github.com/emirhangumus/sshmanager/releases/download/v2.0.3/sshmanager_Linux_arm64.tar.gz"
+      sha256 "fb3630a479ac82efd4cc4f955e1dc1bd7e5707219fb2bc46b9e79b1823173b15"
     end
   end
 
